@@ -2,194 +2,230 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Techno BD and Marketing</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Techno BD and Marketing </title>
 </head>
 
+<style>
+    .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px;
+      font-size: 20px;
+      border: none;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 66px;
+      box-shadow: 0px 1px 33px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 15px 5px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #1e0f57;}
+    </style>
+
 <body>
-    <div class="navbar">
+
+  
 
 
-        <!-- Navbar logo -->
-        <div class="nav-header">
-            <div class="nav-logo">
-
-            </div>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+              <h1> Techno BD and Marketing</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            
+            <li><a href="#Digital Marketing" data-after="Digital Marketing">Digital Marketing</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+            <li><a href="#Login" data-after="loginBtn">Login</a></li>
+          </ul>
         </div>
 
-        <!-- responsive navbar toggle button -->
-        <input type="checkbox" id="nav-check">
-        <div class="nav-btn">
-            <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-        </div>
-
-        <!-- Navbar items -->
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-
-            <!-- Dropdown menu -->
-            <div class="dropdown">
-                <a class="dropBtn" href="#">
-                    Services
-                    <i class="fas fa-angle-down"></i>
-                </a>
-                <div class="drop-content">
-                    <a href="edu.html">Educational premium stuffs</a>
-                    <a href="#">Entertainment stuffs</a>
-                    <a href="#">Software stuffs</a>
-                    <a href="#">Bangla Premium Courses</a>
-
-                    <!-- Creating sub menu Dropdown -->
-                    <div class="dropdown2">
-                        <a class="dropBtn2" href="#">
-                            Digital Marketing
-                            <i class="fas fa-angle-right"></i>
-                        </a>
-                        <div class="drop-content2">
-                            <a href="#">Social media Marketing</a>
-                            <a href="#">Email Marketing</a>
-                            <a href="#">Others</a>
-
-                        </div>
-                    </div>
-                </div>
+        <div class="dropdown">
+            <button class="dropbtn">Services</button>
+            <div class="dropdown-content">
+              <a href="edu.html">EDUCATIONAL PREMIUM ACCOUNT </a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
             </div>
 
-            <a href="#">Contact</a>
-            <button class="loginBtn">Login</button>
-        </div>
+    
+          </div>
 
+ 
+
+
+
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+
+
+        <div class="mid">
+            <p> WELCOME TO TECHNO BD AND MARKETING </p>
+            <h2>
+                Get educational, entertainment, Digital Marketing course
+                <br> and software stuffs.
+            </h2>
+
+            <div class="btn">
+
+
+                <a class="simple" href="#"> Get Started</a>
+                <a class="border" href="#"> Support Us</a>
+
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+
+<!-- End Hero Section  -->
+ 
+
+ 
+   
+  <!-- About  Section -->
+  <section id="about">
+    <div class="about-wrap">
+
+     
+            <h1>ABOUT US</h1>
+            <br>
+            <h1> OUR FACEBOOK COMMUNITY: </h1>
+            <br>
+            
+          
+            
+         
+            <a href="https://www.facebook.com/successwitheducation/?ref=pages_you_manage">University Studyhelp BD Facebook page</a>
+            <br>
+            <br>
+  
+            <a href="https://www.facebook.com/marketingstuffs360/?ref=pages_you_manage">Premium marketing Facebook page</a>
+             
+
+            <br>
+            <br>
+
+            <a href="https://www.facebook.com/technoBDmarketing/?ref=pages_you_manage">Marketing with TBD Facebook page</a>
+  
+
+            
+
+
+
+
+
+
+
+
+
+
+</div>
+
+  <!-- Contact Section -->
+  <section id="contact">
+
+    <div class="contact-wrap">
+      <div class="contact-in">
+          <h1>Contact Info</h1>
+          <br>
+          <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+          <p>01863456102</p>
+          <h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+          <p>info.hasan360@gmail.com</p>
+          <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
+          <p>Dhaka,Bangladesh</p>
+         
+      </div>
+      
+        <br>
+          <h1>Send a Message</h1>
+          
+          <form>
+              <input type="text" placeholder="Full Name" class="contact-in-input">
+              <input type="text" placeholder="Email" class="contact-in-input">
+              <input type="text" placeholder="Subject" class="contact-in-input">
+              <textarea placeholder="Message" class="contact-in-textarea"></textarea>
+              <input type="submit" value="SUBMIT" class="contact-in-btn">
+          </form>
+ 
+      
+</section>
+   
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+  
+    
+    </div>
+   </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+
+
+
+
+  <div style="width:60px;height:53px;position:fixed;right:2px;bottom:0px;">
+    <a href="http://wa.me/8801401211328">
+        <img src="whatsappicon.gif" style="width:60px;height:60px;" />
+    </a>
     </div>
 
-
-
-    <!-- Hero Section  -->
-
-
-
-
-    <div class="mid">
-        <p> WELCOME TO TECHNO BD AND MARKETING </p>
-        <h2>
-            Get educational, entertainment, Digital Marketing course
-            <br> and software stuffs.
-        </h2>
-
-        <div class="btn">
-
-
-            <a class="simple" href="#"> Get Started</a>
-            <a class="border" href="#"> Support Us</a>
-
-        </div>
-
-
-    </div>
-    <!-- End Home Section  -->
-    <!-- About Section -->
-    <section id="about">
-        <div class="about container">
-            <div class="col-left">
-                <div class="about-img">
-                    <img src="./img/img-2.png" alt="img">
-                </div>
-            </div>
-            <div class="col-right">
-                <h1 class="section-title">About <span>me</span></h1>
-                <h2>Front End Developer</h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque
-                    repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt
-                    exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni!
-                    Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt
-                    reprehenderit libero enim!
-                </p>
-                <a href="#" class="cta">Download Resume</a>
-            </div>
-        </div>
-    </section>
-    <!-- End About Section -->
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="contact container">
-            <div>
-                <h1 class="section-title">Contact <span>info</span></h1>
-            </div>
-            <div class="contact-items">
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
-                    <div class="contact-info">
-                        <h1>Phone</h1>
-                        <h2>+1 234 123 1234</h2>
-                        <h2>+1 234 123 1234</h2>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
-                    <div class="contact-info">
-                        <h1>Email</h1>
-                        <h2>info@gmail.com</h2>
-                        <h2>abcd@gmail.com</h2>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-                    <div class="contact-info">
-                        <h1>Address</h1>
-                        <h2>Fatikchhari, Chittagong, Bangladesh</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Contact Section -->
-    <!-- Footer -->
-    <section id="footer">
-        <div class="footer container">
-            <div class="brand">
-                <h1><span>S</span>haif <span>A</span>rfan</h1>
-            </div>
-            <h2>Your Complete Web Solution</h2>
-            <div class="social-icon">
-                <div class="social-item">
-                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
-                </div>
-                <div class="social-item">
-                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-                </div>
-                <div class="social-item">
-                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
-                </div>
-                <div class="social-item">
-                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
-                </div>
-            </div>
-            <p>Copyright © 2020 Arfan. All rights reserved</p>
-        </div>
-    </section>
-    <!-- End Footer -->
-
-
-    <div style="width:60px;height:53px;position:fixed;right:2px;bottom:0px;">
-        <a href="http://wa.me/8801401211328">
-            <img src="whatsappicon.gif" style="width:60px;height:60px;" />
-        </a>
-
-    </div>
-
-
-
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 </body>
+
 </html>
 
